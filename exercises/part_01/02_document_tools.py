@@ -43,7 +43,7 @@ start = time.time()
 # The PDF is not directly useful for the model,
 # so we first extract its text content into a normal Python string.
 # Complete this line with pdfminer's extract_text function.
-doc_pdfminer = ...(str(pdf_path))
+doc_pdfminer = extract_text(str(pdf_path))
 
 end = time.time()
 
@@ -65,7 +65,7 @@ start = time.time()
 # EXERCISE - OCR engine:
 # Images also need to be converted to text before the model can use them.
 # Create a RapidOCR engine instance, then the next line will run it on the image file.
-engine = ...
+engine = RapidOCR()
 
 result = engine(str(image_path))
 doc_ocr = "\n".join(result.txts or [])

@@ -5,7 +5,7 @@ import os
 from pydantic_ai.models.openai import OpenAIChatModel
 from pydantic_ai.providers.ollama import OllamaProvider
 
-from graph_rag_workshop.settings import (
+from workshop_graph_rag_openchconf202605.workshop_graph_rag_chopen.src.graph_rag_workshop.settings import (
     DEFAULT_OLLAMA_BASE_URL,
     DEFAULT_OLLAMA_MODEL,
 )

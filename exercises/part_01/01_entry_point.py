@@ -19,7 +19,7 @@ from pydantic_ai.models.openai import OpenAIChatModel
 from pydantic_ai.providers.ollama import OllamaProvider
 
 # Define Model Configuration.
-DEFAULT_OLLAMA_MODEL = "qwen3.5:2b"
+DEFAULT_OLLAMA_MODEL = "qwen3.6:27b"
 DEFAULT_OLLAMA_BASE_URL = "http://localhost:11434/v1"
 
 

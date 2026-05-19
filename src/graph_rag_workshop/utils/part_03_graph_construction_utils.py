@@ -15,8 +15,8 @@ from pydantic import BaseModel, Field
 from pydantic_ai import Agent, ModelSettings
 from typing import Optional
 
-from graph_rag_workshop.utils.pydantic_utils import get_ollama_model
-from graph_rag_workshop.utils.part_02_rag_utils import retrieve_context
+from workshop_graph_rag_openchconf202605.workshop_graph_rag_chopen.src.graph_rag_workshop.utils.pydantic_utils import get_ollama_model
+from workshop_graph_rag_openchconf202605.workshop_graph_rag_chopen.src.graph_rag_workshop.utils.part_02_rag_utils import retrieve_context
 
 
 SMALL_CONTRACT_SCHEMA = {

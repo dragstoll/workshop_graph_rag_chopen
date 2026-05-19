@@ -7,7 +7,7 @@ from chromadb.utils import embedding_functions
 from pdfminer.high_level import extract_text
 from loguru import logger
 
-from graph_rag_workshop.settings import (
+from workshop_graph_rag_openchconf202605.workshop_graph_rag_chopen.src.graph_rag_workshop.settings import (
     DEFAULT_VECTORSTORE_NAME,
     DEFAULT_CHUNK_SIZE,
     DEFAULT_CHUNK_OVERLAP,
